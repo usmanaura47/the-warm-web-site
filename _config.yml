@@ -20,7 +20,7 @@ description: "Web Scripts develops scripts, plugins, themes and a lot of code th
 
 # Main author of the website
 # See > authors.yml
-author: phlow
+author: Malik Usman Aura
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
@@ -29,7 +29,7 @@ baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
+improve_content: 
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
