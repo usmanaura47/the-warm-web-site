@@ -5,6 +5,9 @@
 # this work, you have to use › layout: frontpage
 #
 layout: frontpage
+image:
+    homepage: header_homepage_13.jpg
+	
 header:
   image_fullwidth: you-can-delete-me-header.png
 widget1:
@@ -19,11 +22,6 @@ widget2:
   text: ''
 widget3:
   title: "Website"
-  url: 'http://domain.de/must-be-absolut-url-like-this-one/'
-  image: 'http://dummyimage.com/302x183/334d5c/efc94c.png&text=Placeholder'
-  text: ''
-widget4:
-  title: "Widget 4"
   url: 'http://domain.de/must-be-absolut-url-like-this-one/'
   image: 'http://dummyimage.com/302x183/334d5c/efc94c.png&text=Placeholder'
   text: ''
