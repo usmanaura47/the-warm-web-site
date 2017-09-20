@@ -8,15 +8,15 @@
 #                                                 /____/        
 #
 # Title of your website
-title: "Feeling Responsive"
+title: "Web Scripts"
 
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: "A Flexible Theme for Jekyll"
+slogan: "Writing Code That Powers The Web"
 
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: "The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes."
+description: "Web Scripts develops scripts, plugins, themes and a lot of code that powers the web using technologies like php, python, html, css, javascript, jquery etc"
 
 # Main author of the website
 # See > authors.yml
