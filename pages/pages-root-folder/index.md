@@ -5,8 +5,7 @@
 # this work, you have to use › layout: frontpage
 #
 layout: frontpage
-image:
-    homepage: header_homepage_13.jpg
+
 header:
   image_fullwidth: you-can-delete-me-header.png
 widget1:
