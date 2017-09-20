@@ -22,6 +22,11 @@ widget3:
   url: 'http://domain.de/must-be-absolut-url-like-this-one/'
   image: 'http://dummyimage.com/302x183/334d5c/efc94c.png&text=Placeholder'
   text: ''
+widget4:
+  title: "Widget 4"
+  url: 'http://domain.de/must-be-absolut-url-like-this-one/'
+  image: 'http://dummyimage.com/302x183/334d5c/efc94c.png&text=Placeholder'
+  text: ''
 #
 # Use the call for action to show a button on the frontpage
 #
