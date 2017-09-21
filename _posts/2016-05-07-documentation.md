@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Documentation
 img: image-5.png
 ---
