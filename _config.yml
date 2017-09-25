@@ -32,7 +32,7 @@ paginate_path: /page:num/
 analytics: ""
 
 # Comments
-disqus-shortname: webjeda-demo
+disqus-shortname: ""
 
 #social
 facebook: http://facebook.com/webjeda
