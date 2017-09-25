@@ -6,7 +6,28 @@ permalink: /about/
 
 
 
+We at Web Scripts develop code that powers the web.
 
-Webjeda cards is a Bootstrap based theme. Any Bootstrap element can be used in the theme. Read [Webjeda Blog](http://blog.webjeda.com){: target="_blank"} for jekyll tutorials. 
+We develop stuff like...
 
-For more themes, visit [jekyll-themes](https://jekyll-themes.com){: target="_blank"}
+- Scripts
+- Web Forms
+- Plugins
+- Themes
+- Templates
+
+We use languages and technologies like...
+
+- HTML
+- CSS
+- Javascript
+- php
+- mysql
+- Jquery
+- Web Frameworks (Bootstrap, Bulma, Skeleton)
+
+### Our Location
+
+Web Scripts was founded in 2017
+We are based in Pakistan
+Founded By Malik Usman Aura
