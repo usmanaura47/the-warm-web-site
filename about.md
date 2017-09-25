@@ -5,8 +5,11 @@ permalink: /about/
 ---
 
 
+### Who are we?
 
 We at Web Scripts develop code that powers the web.
+
+### What do we do?
 
 We develop stuff like...
 
@@ -15,6 +18,8 @@ We develop stuff like...
 - Plugins
 - Themes
 - Templates
+
+### How do we do it?
 
 We use languages and technologies like...
 
@@ -29,5 +34,7 @@ We use languages and technologies like...
 ### Our Location
 
 Web Scripts was founded in 2017
+
 We are based in Pakistan
+
 Founded By Malik Usman Aura
