@@ -5,11 +5,11 @@ permalink: /about/
 ---
 
 
-### Who are we?
+## Who are we?
 
-We at Web Scripts develop code that powers the web.
+We at Web Scripts develop code that powers the web
 
-### What do we do?
+## What do we do?
 
 We develop stuff like...
 
@@ -19,7 +19,7 @@ We develop stuff like...
 - Themes
 - Templates
 
-### How do we do it?
+## How do we do it?
 
 We use languages and technologies like...
 
@@ -28,10 +28,10 @@ We use languages and technologies like...
 - Javascript
 - php
 - mysql
-- Jquery
+- Javascript Frameworks (Jquery)
 - Web Frameworks (Bootstrap, Bulma, Skeleton)
 
-### Our Location
+## Our Location
 
 Web Scripts was founded in 2017
 
