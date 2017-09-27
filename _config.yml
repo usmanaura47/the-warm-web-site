@@ -19,7 +19,7 @@ default-image: logo-big.png # If there is no featured image in a post then this 
 #footer
 built-by: Malik Usman Aura
 copyright:
-   name: Malik Usman Aura
+   name: 'Malik Usman Aura'
    link: 'https://leosoftwares4u.tk'
 
 # Build settings
