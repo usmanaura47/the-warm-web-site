@@ -100,6 +100,9 @@ a img {
 .g img {
   color: #d34836; }
 
+.si-glyph * {
+fill: red;
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
