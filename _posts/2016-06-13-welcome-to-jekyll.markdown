@@ -17,7 +17,8 @@ browser: "All major browsers (including IE8)"
 ---
 ## Blah Blah Blah
 
-### Why should you buy this? {: .test}
+### Why should you buy this? 
+{: .test}
 
 ### Frequently Asked Questions
 
