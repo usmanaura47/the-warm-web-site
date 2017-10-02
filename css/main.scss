@@ -97,6 +97,13 @@ a img {
     color: #fff;
     background-color: #444444; }
 
+.big {	
+	display: block;
+	background-color: #4478af;
+	padding: 14px;
+	border-radius: 5px;
+	color: white; }
+	
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "layout",
