@@ -5,7 +5,6 @@ date:   2016-06-13 10:51:47 +0530
 categories: jekyll update
 img: image-1.png
 categories: [one, two]
-
 layout_type = "Responsive"
 ver = "1.0"
 langs = "HTML, CSS, PHP"
