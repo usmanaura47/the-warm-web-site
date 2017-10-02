@@ -20,6 +20,11 @@ browser: "All major browsers (including IE8)"
 ### Why should you buy this? 
 {: .big}
 
+* ABC
+* XYZ
+* Haramba
+{: .test}
+
 ### Frequently Asked Questions
 {: .big}
 
