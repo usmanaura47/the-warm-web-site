@@ -107,6 +107,8 @@ a img {
 .big:before {
 	font-family: 'Glyphicons Halflings';
 	content:"\e092";
+	font-size: 24px;
+	padding: 1px 5px 0 0;
 }
 	
 // Import partials from `sass_dir` (defaults to `_sass`)
