@@ -104,6 +104,10 @@ a img {
 	border-radius: 5px;
 	color: white; }
 	
+.big:before {
+	content: "&#8680";
+}
+	
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "layout",

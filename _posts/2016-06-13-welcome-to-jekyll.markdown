@@ -1,6 +1,6 @@
 ---
 layout: product
-title:  "PHP Contact Form - No Javascript"
+title:  "PHP Contact Form Script"
 date:   2016-06-13 10:51:47 +0530
 categories: jekyll update
 img: image-1.png
