@@ -108,7 +108,11 @@ a img {
 	font-family: 'Glyphicons Halflings';
 	content:"\e092";
 	font-size: 24px;
-	padding: 14px 14px 0 0;
+	padding: 14px 16px 0 0;
+}
+
+.test li {
+	float: left;
 }
 	
 // Import partials from `sass_dir` (defaults to `_sass`)
