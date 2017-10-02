@@ -12,10 +12,10 @@
 			<h2>Information</h2>
 			<table class="table table-striped">
 				<tbody>
-					<tr><th scope="row">Layout: </th><td>Responsive</td></tr>
-					<tr><th scope="row">Version: </th><td>1.0</td></tr>
-					<tr><th scope="row">Languages Used: </th><td>HTML, CSS, PHP</td></tr>
-					<tr><th scope="row">Supports Ajax: </th><td>No</td></tr>
+					<tr><th scope="row">Layout: </th><td>{{post.layout_type}}</td></tr>
+					<tr><th scope="row">Version: </th><td>{{post.ver}}</td></tr>
+					<tr><th scope="row">Languages Used: </th><td>{{post.langs}}</td></tr>
+					<tr><th scope="row">Supports Ajax: </th><td>{{post.ajax}}</td></tr>
 					<tr><th scope="row">Help: </th><td>Support & Documentation </td></tr>
 				</tbody>
 			</table>
@@ -26,8 +26,8 @@
 			<h2>Requirements</h2>
 			<table class="table table-striped">
 				<tbody>
-					<tr><th scope="row">Language: </th><td>php 5.4 or higher</td></tr>
-					<tr><th scope="row">Browser: </th><td>All major browsers (including IE8)</td></tr>
+					<tr><th scope="row">Language: </th><td>{{post.php}}</td></tr>
+					<tr><th scope="row">Browser: </th><td>{{post.browser}}</td></tr>
 				</tbody>
 			</table>
 		</div>
