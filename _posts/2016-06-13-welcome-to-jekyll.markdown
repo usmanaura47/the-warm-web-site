@@ -17,10 +17,10 @@ browser: "All major browsers (including IE8)"
 ---
 ## Blah Blah Blah
 
-# Why should you buy this?
+#### Why should you buy this?
 
-# Frequently Asked Questions
+#### Frequently Asked Questions
 
-# Pricing
+#### Pricing
 
-# Have a question or feedback ?
+#### Have a question or feedback ?
