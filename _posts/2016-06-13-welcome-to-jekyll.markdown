@@ -24,7 +24,7 @@ browser: "All major browsers (including IE8)"
 	* ABC
 	* XYZ
 	* Haramba
-	{: #double}
+	
 </div>
 
 ### Frequently Asked Questions
