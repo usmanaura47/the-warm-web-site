@@ -20,11 +20,10 @@ browser: "All major browsers (including IE8)"
 ### Why should you buy this? 
 {: .big}
 
-<div>
+<div class="features">
 * ABC
 * XYZ
 * Haramba
-{: .test}
 </div>
 
 ### Frequently Asked Questions
