@@ -138,12 +138,13 @@ a img {
 
 #question li {
 	line-height: 1.5;
-	font-weight: 100;
+	font-weight: bold;
 }
 
 #question li:before {
 	font-family: 'Glyphicons Halflings';
 	content:"\e085";
+	padding: 16px 8px 0 0; 
 }	
 	
 // Import partials from `sass_dir` (defaults to `_sass`)
