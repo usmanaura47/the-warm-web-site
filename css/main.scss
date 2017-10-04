@@ -130,6 +130,14 @@ a img {
 	font-size: 18px;
 	padding: 16px 10px 0 0;
 }
+
+#question {
+	list-style: none;
+}
+
+#question li {
+	line-height: 1;
+}
 	
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

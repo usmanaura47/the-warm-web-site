@@ -30,7 +30,7 @@ browser: "All major browsers (including IE8)"
 ### Frequently Asked Questions
 {: .big}
 
-<ul>
+<ul id="question">
 <li>I'm not a programmer, will I be able to install this script?</li>
 Yes you can, this script is very easy to install. All you have to do to install this script is changing some file names and probably copy/paste some lines. That's all. :)
 
