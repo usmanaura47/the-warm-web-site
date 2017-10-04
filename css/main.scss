@@ -111,7 +111,16 @@ a img {
 	padding: 14px 16px 0 0;
 }
 
+#double {
+	overflow: hidden;
+	width: 100%;
+}
 
+#double li {
+	float: left;
+	display: inline;
+	width: 50%;
+}
 	
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
