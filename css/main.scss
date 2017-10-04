@@ -102,13 +102,14 @@ a img {
 	background-color: #4478af;
 	padding: 14px;
 	border-radius: 5px;
+	margin-top: 10px;
 	color: white; }
 	
 .big:before {
 	font-family: 'Glyphicons Halflings';
 	content:"\e092";
 	font-size: 24px;
-	padding: 14px 16px 0 0;
+	padding: 18px 16px 0 0;
 }
 
 #double {
@@ -137,6 +138,7 @@ a img {
 
 #question li {
 	line-height: 1;
+	font-weight: 10px;
 }
 	
 // Import partials from `sass_dir` (defaults to `_sass`)
