@@ -23,7 +23,7 @@ browser: "All major browsers (including IE8)"
 - ABC
 - XYZ
 - Haramba
-	
+{: id="double"}	
 	
 ### Frequently Asked Questions
 {: .big}
