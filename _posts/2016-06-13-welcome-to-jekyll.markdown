@@ -21,10 +21,10 @@ browser: "All major browsers (including IE8)"
 {: .big}
 
 <div class="features">
-* ABC
-* XYZ
-* Haramba
-{: #double}
+	* ABC
+	* XYZ
+	* Haramba
+	{: #double}
 </div>
 
 ### Frequently Asked Questions
