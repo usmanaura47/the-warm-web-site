@@ -9,32 +9,33 @@
         
 		
 		<div class="mt10">
-			<h2>Information</h2>
+			<h2><i class="glyphicon glyphicon-info-sign"></i>&nbsp;Information</h2>
 			<table class="table table-striped">
 				<tbody>
 					<tr><th scope="row">Layout: </th><td>{{page.layout_type}}</td></tr>
 					<tr><th scope="row">Version: </th><td>{{page.ver}}</td></tr>
 					<tr><th scope="row">Languages Used: </th><td>{{page.langs}}</td></tr>
 					<tr><th scope="row">Supports Ajax: </th><td>{{page.ajax}}</td></tr>
-					<tr><th scope="row">Help: </th><td>Support & Documentation </td></tr>
+					<tr><th scope="row">Help: </th><td><a href="{{site.baseurl}}{{page.support}}">Support</a> & <a href="{{site.baseurl}}{{page.docs}}">Documentation</a> </td></tr>
 				</tbody>
 			</table>
 		</div>
 		<br>
 		
 		<div class="mt10">
-			<h2>Requirements</h2>
+			<h2><i class="glyphicon glyphicon-list-alt"></i>&nbsp;Requirements</h2>
 			<table class="table table-striped">
 				<tbody>
 					<tr><th scope="row">Language: </th><td>{{page.php}}</td></tr>
 					<tr><th scope="row">Browser: </th><td>{{page.browser}}</td></tr>
+					<tr><th scope="row">Additional: </th><td>{{page.additional}}</td></tr>
 				</tbody>
 			</table>
 		</div>
 		<br>
 		
 		<div class="mt10 recent">
-            <h2>Other Products</h2>        
+            <h2><i class="glyphicon glyphicon-flag"></i>&nbsp;Other Products</h2>        
              <ul>
                 {% for post in site.related_posts limit:3 %}
 

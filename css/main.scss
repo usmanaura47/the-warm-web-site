@@ -102,14 +102,14 @@ a img {
 	background-color: #4478af;
 	padding: 14px;
 	border-radius: 5px;
-	margin-top: 10px;
+	margin: 35px 0 15px;
 	color: white; }
 	
 .big:before {
 	font-family: 'Glyphicons Halflings';
-	content:"\e092";
+	content:"\e199";
 	font-size: 24px;
-	padding: 18px 16px 0 0;
+	padding: 16px 10px 0 0;
 }
 
 #double {
@@ -122,12 +122,12 @@ a img {
 	display: inline;
 	width: 50%;
 	line-height: 1.5;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 #double li:before {
 	font-family: 'Glyphicons Halflings';
-	content:"\e007";
+	content:"\e103";
 	font-size: 18px;
 	padding: 16px 10px 0 0;
 }
@@ -139,14 +139,29 @@ a img {
 #question li {
 	line-height: 1.5;
 	font-weight: bold;
-	margin-top: 8px;
+	margin-top: 10px;
 }
 
 #question li:before {
 	font-family: 'Glyphicons Halflings';
 	content:"\e085";
 	padding: 16px 8px 0 0; 
+}
+
+#product-title {
+	font-size: 24px;
 }	
+
+#price-table tbody tr:first-child {
+	font-weight: bold;
+}
+
+@media screen and (max-width: 786px) {
+	#double li {
+		float: none;
+		display: block;
+	}
+}
 	
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

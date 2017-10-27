@@ -8,20 +8,21 @@ layout: default
     <div class="row pack">
 
         {% for post in paginator.posts %}   
-            <div class="col-md-4 card">
+            <div class="col-md-6 card">
                  
                 <div class="panel panel-default">
                   <div class="panel-body">
-                    <h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3><span class="post-meta pull-right"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span>
+                    <h3 class="panel-title pull-left">{{ post.title | truncate: 40 }}</h3><span class="post-meta pull-right"><small>PHP Script</small></span>
                   </div>
                   {% if post.img %}
                   <img width="100%" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
                   {% else %}
-                  <img width="100%" src="{{site.baseurl}}/images/webjeda-logo-big.jpg" alt="{{site.title}}">
+                  <img width="100%" src="{{site.baseurl}}/images/{{site.default-image}}" alt="{{site.title}}">
                   {% endif %}
-                  <div class="panel-body"><small>
-                    {{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}</small>
-                    <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-sm pull-right mt10">More Info</a>
+                  <div class="panel-body">
+					<small>{{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}</small>
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-sm mt10">GET IT NOW!</a>
+					<a href="{{ post.demo | prepend: site.baseurl }}" class="btn btn-success btn-sm mt10">LIVE DEMO!</a>
                   </div>
                 </div>
             </div>
