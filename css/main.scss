@@ -162,10 +162,3 @@ a img {
 		display: block;
 	}
 }
-	
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "layout",
-        "custom",
-        "syntax-highlighting"
-;
