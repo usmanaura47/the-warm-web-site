@@ -10,7 +10,7 @@ title: Web Scripts
 email: usmanaura47@gmail.com
 description: "Web Scripts develops scripts, plugins, themes and a lot of code that powers the web using technologies like php, python, html, css, javascript, jquery etc"
   
-baseurl: "" # the subpath of your site, e.g. /blog. Note no / at the end
+baseurl: "/web-scripts" # the subpath of your site, e.g. /blog. Note no / at the end
 url: "https://usmanaura47.github.io" # the base hostname & protocol for your site
 
 #sidebar
