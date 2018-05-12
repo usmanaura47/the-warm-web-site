@@ -1,5 +1,7 @@
 ---
 layout: default
+header-title: Web Scripts
+tag-line: We develop scripts for the web
 ---
 
 <div class="home">
@@ -9,20 +11,26 @@ layout: default
 
         {% for post in paginator.posts %}   
             <div class="col-md-6 card">
-                 
                 <div class="panel panel-default">
                   <div class="panel-body">
                     <h3 class="panel-title pull-left">{{ post.title | truncate: 40 }}</h3><span class="post-meta pull-right"><small>PHP Script</small></span>
                   </div>
                   {% if post.img %}
-                  <img width="100%" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
+                  <img width="100%" height="340px" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
                   {% else %}
-                  <img width="100%" src="{{site.baseurl}}/images/{{site.default-image}}" alt="{{site.title}}">
+                  <img width="100%" height="340px" src="{{site.baseurl}}/images/{{site.default-image}}" alt="{{site.title}}">
                   {% endif %}
                   <div class="panel-body">
-					<small>{{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}</small>
-                    <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-sm mt10">GET IT NOW!</a>
-					<a href="{{ post.demo | prepend: site.baseurl }}" class="btn btn-success btn-sm mt10">LIVE DEMO!</a>
+					<p>
+						{{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}
+					</p>
+					<span class="pull-left">
+						<h4 class="currency">$12</h4>
+					</span>
+					<span class="pull-right">
+						<a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-info btn-sm mt10">GET IT NOW!</a>
+						<a href="{{ post.demo | prepend: site.baseurl }}" class="btn btn-success btn-sm mt10">LIVE DEMO!</a>
+					</span>
                   </div>
                 </div>
             </div>

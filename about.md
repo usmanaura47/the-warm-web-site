@@ -2,6 +2,8 @@
 layout: page
 title: About
 permalink: /about/
+header-title: About Us
+tag-line: Get-to-know who we are!
 ---
 
 

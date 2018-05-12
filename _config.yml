@@ -10,17 +10,16 @@ title: Web Scripts
 email: usmanaura47@gmail.com
 description: "Web Scripts develops scripts, plugins, themes and a lot of code that powers the web using technologies like php, python, html, css, javascript, jquery etc"
   
-baseurl: "/web-scripts-site" # the subpath of your site, e.g. /blog. Note no / at the end
+baseurl: "" # the subpath of your site, e.g. /blog. Note no / at the end
 url: "https://usmanaura47.github.io" # the base hostname & protocol for your site
 
 #sidebar
 default-image: logo-big.png # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
 
 #footer
-built-by: Malik Usman Aura
 copyright:
    name: 'Malik Usman Aura'
-   link: 'https://leosoftwares4u.tk'
+   
 
 # Build settings
 markdown: kramdown
@@ -31,19 +30,11 @@ paginate_path: /page:num/
 # Tracker
 analytics: ""
 
-# Comments
-disqus-shortname: ""
-
 #social
 facebook: http://facebook.com/
-quora: http://quora.com
 twitter: http://twitter.com/@malikusmanaura
 github: http://github.com/usmanaura47
-
-#facebook like box
-fb-app-id: ""
-fb-page-url: https://www.facebook.com/webjeda/
-fb-page-title: webjeda
+linkedin: http://linkedin.com
 
 # Sass style
 sass:

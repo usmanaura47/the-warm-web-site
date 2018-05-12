@@ -1,22 +1,42 @@
-<footer>
-    <div class="container">
-        <div class="row p20">
-            {% if site.copyright.name %}
-                <div class="col-md-4 text-center mt25">All rights reserved by <a target="_blank" href="{{site.copyright.link}}">{{site.copyright.name}}</a></div>
-            {% endif %}
+<footer class="footer-distributed">
 
-            <div class="col-md-4 text-center mt25" >
-                {% if site.built-by %}
-                <a target="_blank" href="http://webjeda.com">Theme By webjeda</a>
-                {% endif %}
-            </div>
-            <div class="col-md-4 text-center mt25">
-                <a target="_blank" href="{{site.facebook}}"><li class="social facebook"><img src="{{site.baseurl}}/images/facebook.svg" alt="{{site.facebook}}"></li></a> 
-                <a target="_blank" href="{{site.quora}}"><li class="social quora"><img src="{{site.baseurl}}/images/quora.svg" alt="{{site.quora}}"></li></a>      
-                <a target="_blank" href="{{site.twitter}}"><li class="social twitter"><img src="{{site.baseurl}}/images/twitter.svg" alt="{{site.twitter}}"></li></a>      
-                <a target="_blank" href="{{site.github}}"><li class="social github"><img src="{{site.baseurl}}/images/github.svg" alt="{{site.github}}"></li></a>
-            </div>
+			<div class="footer-left">
 
-        </div> 
-    </div>
+				<h3><&nbsp;<i class="glyphicon glyphicon-globe text-info" aria-hidden="true"></i>/>&nbsp;{{site.title}}</h3>
+
+				<p class="footer-company-name">{% if site.copyright.name %} {{site.copyright.name}} {% endif %} &copy; 2015</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Rawalpindi</span> Punjab, Pakistan</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">support@company.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About Us</span>
+					{{ site.description }}
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="{{ site.facebook }}"><i class="fa fa-facebook"></i></a>
+					<a href="{{ site.twitter }}"><i class="fa fa-twitter"></i></a>
+					<a href="{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a>
+					<a href="{{ site.github }}"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
 </footer>

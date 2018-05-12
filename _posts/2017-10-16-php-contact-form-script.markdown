@@ -23,11 +23,14 @@ ajax_link: "/advance-php-contact-form-script/"
 
 <hr>
 
-<a href="{{page.demo}}" class="btn btn-info btn-lg btn-block"><i class="glyphicon glyphicon-eye-open"></i>&nbsp;View Demo</a>
-<a href="#pricing" class="btn btn-info btn-lg btn-block"><i class="glyphicon glyphicon-shopping-cart"></i>&nbsp;Buy Now</a>
-{% if page.ajax_link != "" %}
-<a href="{{ site.baseurl }}{{page.ajax_link}}" class="btn btn-warning btn-lg btn-block" target="_blank"><i class="glyphicon glyphicon-new-window"></i>&nbsp;Get the Ajax Version</a>
-{% endif %}
+<div class="btn-group btn-group-justified">
+	<a href="{{page.demo}}" class="btn btn-info"><i class="glyphicon glyphicon-eye-open"></i>&nbsp;View Demo</a>
+	<a href="#pricing" class="btn btn-success"><i class="glyphicon glyphicon-shopping-cart"></i>&nbsp;Buy Now</a>
+	{% if page.ajax_link != "" %}
+		<a href="{{ site.baseurl }}{{page.ajax_link}}" class="btn btn-info" target="_blank"><i class="glyphicon glyphicon-new-window"></i>&nbsp;Get the Ajax Version</a>
+	{% endif %}
+</div>
+
 
 <hr>
 
