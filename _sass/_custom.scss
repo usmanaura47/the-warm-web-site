@@ -65,12 +65,41 @@
 	list-style: none;
 }
 
+#no-underline {
+	text-decoration: none;
+}
+
+.navbar-right {
+	margin-top: 10px;
+}
+
+.about-list {
+	list-style: none;
+	padding-left: 0;
+	padding-top: 10px;
+}
+
+.about-list li:before {
+	font-family: 'Glyphicons Halflings';
+	content:"\e087";
+	padding: 16px 8px 0 0; 
+}
+
+.mt20 {
+	margin-top: 20px;
+}
+
 .big-header {
-	background: linear-gradient(0deg,rgba(0,0,0,0.2),rgba(0,0,0,0.0)), url('/images/home-header.jpg') center center repeat;
+	background: linear-gradient(0deg,rgba(0,0,0,0.2),rgba(0,0,0,0.0)), url('/images/home-header.png') center center repeat;
 	padding-top: 80px;
 	padding-bottom: 60px;
 	margin-bottom: 30px;
 	text-align: center;
+}
+
+.navbar-brand { 
+    padding: 0;
+    height: 55px;
 }
 
 .navbar {
@@ -85,7 +114,7 @@
 .big {	
 	display: block;
 	background-color: #4478af;
-	padding: 14px;
+	padding: 10px;
 	border-radius: 5px;
 	margin: 35px 0 15px;
 	color: white; }

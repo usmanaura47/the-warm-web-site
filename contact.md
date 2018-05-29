@@ -2,8 +2,8 @@
 layout: page
 title: "Customer Support"
 permalink: /support/
-header-title: Customer Support
-tag-line: Feel free to contact us in case of any problems or queries
+header-title: "Customer Support"
+tag-line: "Feel free to contact us in case of any problems or queries"
 ---
 
 

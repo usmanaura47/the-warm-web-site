@@ -6,9 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Web Scripts
+title: "The Warm Web"
 email: usmanaura47@gmail.com
-description: "Web Scripts develops scripts, plugins, themes and a lot of code that powers the web using technologies like php, python, html, css, javascript, jquery etc"
+description: "The Warm Web keeps the Web warm by developing awesome scripts, themes, plugins and templates for it."
   
 baseurl: "" # the subpath of your site, e.g. /blog. Note no / at the end
 url: "https://usmanaura47.github.io" # the base hostname & protocol for your site
@@ -40,6 +40,6 @@ linkedin: http://linkedin.com
 sass:
   style: compressed
 
-# Ruby Gems
-gems: [jekyll-paginate, jekyll-seo-tag]
+# Ruby plugins
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 

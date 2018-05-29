@@ -2,9 +2,9 @@
 
 			<div class="footer-left">
 
-				<h3><&nbsp;<i class="glyphicon glyphicon-globe text-info" aria-hidden="true"></i>/>&nbsp;{{site.title}}</h3>
+				<img id="footer-img" src="/images/footer.png" alt="The Warm Web">
 
-				<p class="footer-company-name">{% if site.copyright.name %} {{site.copyright.name}} {% endif %} &copy; 2015</p>
+				<p class="footer-company-name">{% if site.copyright.name %} {{site.copyright.name}} {% endif %} &copy; {{ 'now' | date: "%Y" }}</p>
 			</div>
 
 			<div class="footer-center">
@@ -16,7 +16,7 @@
 
 				<div>
 					<i class="fa fa-envelope"></i>
-					<p><a href="mailto:support@company.com">support@company.com</a></p>
+					<p><a href="{{site.baseurl}}/support/">Contact Us</a></p>
 				</div>
 
 			</div>
