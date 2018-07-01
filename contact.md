@@ -7,7 +7,7 @@ tag-line: "Feel free to contact us in case of any problems or queries"
 ---
 
 
-<div>
+<div class="mt40">
 	<form action="https://getsimpleform.com/messages?form_api_token=60f6a3dc8f96bbe167d402e355541dd4" method="post">
 		<div class="form-group">
 			<label class="control-label">Your Name: </label>
@@ -15,7 +15,7 @@ tag-line: "Feel free to contact us in case of any problems or queries"
 		</div>
 		<div class="form-group">
 			<label class="control-label">Your Email: </label>
-			<input type="email" class="form-control" name="Email" max-length="35" placeholder="demo@mail.com" required>
+			<input type="email" class="form-control" name="Email" max-length="35" placeholder="johndoe@mail.com" required>
 		</div>
 		<div class="form-group">
 			<label class="control-label">Product Name: </label>

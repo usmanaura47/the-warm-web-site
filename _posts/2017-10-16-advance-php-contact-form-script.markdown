@@ -2,7 +2,7 @@
 layout: product-scripts
 title:  "Advance PHP Contact Form Script"
 date:   2017-10-7
-categories: "PHP Script"
+categories: [PHP Script]
 img: php-contact-from-script-ajax.png
 
 short: "A simple and easy-to-use but advance PHP contact form script with powerful features like Ajax and customization"
