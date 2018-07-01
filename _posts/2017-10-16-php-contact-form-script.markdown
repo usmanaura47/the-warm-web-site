@@ -1,12 +1,12 @@
 ---
-layout: scripts
+layout: product-scripts
 title:  "PHP Contact Form Script"
-date:   2017-10-8 10:51:47 +0530
-categories: php script
+date:   2017-10-8
+categories: "PHP Script"
 img: php-contact-from-script.png
 
-
-description: "Do you need a feature enriched, secure & fast PHP Contact Form script? look no further! Our responsive and advance PHP script is all you need to get started within a few minutes."
+short: "An easy-to-use, advance, powerful and simple PHP contact form script with no js dependency"
+description: "Do you need a feature enriched, secure & fast PHP Contact Form script? look no further! Our responsive and advance PHP script is all you need to get started within a few minutes"
 layout_type: "Responsive"
 ver: "1.0"
 langs: "HTML, CSS, PHP"

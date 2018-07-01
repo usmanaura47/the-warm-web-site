@@ -1,0 +1,41 @@
+<footer class="site-footer">
+
+    <div class="footer-left">
+
+        <img id="footer-img" src="/images/footer.png" alt="The Warm Web">
+
+        <p class="footer-company-name">{% if site.copyright.name %} {{site.copyright.name}} {% endif %} &copy; {{ 'now' | date: "%Y" }}</p>
+    </div>
+
+    <div class="footer-center">
+
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Rawalpindi</span> Punjab, Pakistan</p>
+        </div>
+
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="{{site.baseurl}}/support/">Contact Us</a></p>
+        </div>
+
+    </div>
+
+    <div class="footer-right">
+
+        <p class="footer-company-about">
+            <span>About Us</span> {{ site.description }}
+        </p>
+
+        <div class="footer-icons">
+
+            <a href="{{ site.facebook }}"><i class="fa fa-facebook"></i></a>
+            <a href="{{ site.twitter }}"><i class="fa fa-twitter"></i></a>
+            <a href="{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a>
+            <a href="{{ site.github }}"><i class="fa fa-github"></i></a>
+
+        </div>
+
+    </div>
+
+</footer>

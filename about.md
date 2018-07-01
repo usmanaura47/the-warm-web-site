@@ -14,6 +14,8 @@ tag-line: "Get-to-know who we are!"
 	<div class="col-md-4">&nbsp;</div>
 </div>
 
+<br>
+
 <div class="row">
 	<div class="col-md-6">
 		<h2>Who are we?</h2>
@@ -41,10 +43,10 @@ tag-line: "Get-to-know who we are!"
 			<li>HTML</li>
 			<li>CSS</li>
 			<li>Javascript</li>
-			<li>php</li>
-			<li>mysql</li>
-			<li>Javascript Frameworks (jquery)</li>
-			<li>Frontend Frameworks (Bootstrap, Bulma, Skeleton)</li>
+			<li>PHP</li>
+			<li>Databases (mysql)</li>
+			<li>CSS frameworks (Bootstrap, Bulma, Skeleton)</li>
+			<li>Javascript frameworks (jquery)</li>
 		</ul>
 	</div>
 	<div class="col-md-6">

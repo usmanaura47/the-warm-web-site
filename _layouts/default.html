@@ -1,30 +1,31 @@
----
-layout: compress
 --- 
+layout: compress 
+---
 
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    {% include header.html %}
-	
+    {% include site-header.html %} 
+	{% unless page.id %} {% include site-hero.html %} {% endunless %}
+
     <section class="container">
-	
-        {{ content }}	
-		
+
+        {{ content }}
+
     </section>
 
-    {% include footer.html %}
-    
+    {% include site-footer.html %}
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
-  <script src="{{site.baseurl}}/js/jquery.slides.min.js"></script>
-  <script src="{{site.baseurl}}/js/custom.js"></script>
- {% if site.analytics %}{% include analytics.html %}{% endif %}
-  </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
+    <script src="{{site.baseurl}}/js/jquery.slides.min.js"></script>
+    <script src="{{site.baseurl}}/js/custom.js"></script>
+    {% if site.analytics != "" %}{% include analytics.html %}{% endif %}
+	
+</body>
 
 </html>

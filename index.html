@@ -1,27 +1,26 @@
 ---
 permalink: /
-layout: main
+layout: default
 header-title: "{ The Warm Web }"
 tag-line: "We keep the Web warm"
 ---
 
-<div class="home"> 
-    <div class="row pack">
+    <div class="row">
 
         {% for post in paginator.posts %}   
             <div class="col-md-6 card">
                 <div class="panel panel-default">
                   <div class="panel-body">
-					<h3 class="panel-title pull-left">{{ post.title | truncate: 40 }}</h3><span class="post-meta pull-right"><small>PHP Script</small></span>
+					<h3 class="panel-title pull-left">{{ post.title | truncate: 40 }}</h3><span class="post-meta pull-right"><small>{{ post.categories }}</small></span>
                   </div>
                   {% if post.img %}
-                  <img width="100%" height="340px" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
+                  <img class="main_post_image" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
                   {% else %}
-                  <img width="100%" height="340px" src="{{site.baseurl}}/images/{{site.default-image}}" alt="{{site.title}}">
+                  <img class="main_post_image" src="{{site.baseurl}}/images/{{site.default-image}}" alt="{{post.title}}">
                   {% endif %}
                   <div class="panel-body">
 					<p>
-						{{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}
+						<strong>{{ post.short | strip_html | strip_newlines | truncate: 180 }}</strong>
 					</p>
 					<span class="pull-left">
 						<h4 class="currency">${{ post.price }}</h4>
@@ -64,7 +63,6 @@ tag-line: "We keep the Web warm"
 			  {% endif %}
 			  </ul>
 			{% endif %}
-
 		</div>
 	</div>
-</div>
+	

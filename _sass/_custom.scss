@@ -65,12 +65,12 @@
 	list-style: none;
 }
 
-.no-underline {
+td .no-underline {
 	text-decoration: none !important; 
 }
 
-.no-underline:hover {
-	color: black; 
+td .no-underline:hover {
+	color: gray; 
 }
 
 .navbar-right {
@@ -93,7 +93,7 @@
 	margin-top: 20px;
 }
 
-.big-header {
+.site-hero {
 	background: linear-gradient(0deg,rgba(0,0,0,0.2),rgba(0,0,0,0.0)), url('/images/home-header.png') center center repeat;
 	padding-top: 80px;
 	padding-bottom: 60px;
@@ -115,6 +115,11 @@
 	color: gray;
 }
 
+.main_post_image {
+	height: 340px;
+	width: 100%;
+}
+
 .big {	
 	display: block;
 	background-color: #4478af;
@@ -130,7 +135,7 @@
 	padding: 16px 10px 0 0;
 }
 
-.footer-distributed{
+.site-footer{
 	background-color: #e8e8e8;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
@@ -141,33 +146,33 @@
 	margin-top: 80px;
 }
 
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
+.site-footer .footer-left,
+.site-footer .footer-center,
+.site-footer .footer-right{
 	display: inline-block;
 	vertical-align: top;
 }
 
 /* Footer left */
 
-.footer-distributed .footer-left{
+.site-footer .footer-left{
 	width: 40%;
 }
 
 /* The company logo */
 
-.footer-distributed h3{
+.site-footer h3{
 	font-size: 36px;
 	margin: 0;
 }
 
-.footer-distributed h3 span{
+.site-footer h3 span{
 	color:  #5383d3;
 }
 
 /* Footer links */
 
-.footer-distributed .footer-company-name{
+.site-footer .footer-company-name{
 	color:  #8f9296;
 	font-size: 14px;
 	font-weight: normal;
@@ -176,11 +181,11 @@
 
 /* Footer Center */
 
-.footer-distributed .footer-center{
+.site-footer .footer-center{
 	width: 35%;
 }
 
-.footer-distributed .footer-center i{
+.site-footer .footer-center i{
 	background-color:  #33383b;
 	color: #ffffff;
 	font-size: 25px;
@@ -193,25 +198,25 @@
 	vertical-align: middle;
 }
 
-.footer-distributed .footer-center i.fa-envelope{
+.site-footer .footer-center i.fa-envelope{
 	font-size: 17px;
 	line-height: 38px;
 }
 
-.footer-distributed .footer-center p{
+.site-footer .footer-center p{
 	display: inline-block;
 	vertical-align: middle;
 	margin:0;
 }
 
-.footer-distributed .footer-center p span{
+.site-footer .footer-center p span{
 	display:block;
 	font-weight: normal;
 	font-size:14px;
 	line-height:2;
 }
 
-.footer-distributed .footer-center p a{
+.site-footer .footer-center p a{
 	color:  #5383d3;
 	text-decoration: none;;
 }
@@ -219,29 +224,29 @@
 
 /* Footer Right */
 
-.footer-distributed .footer-right{
+.site-footer .footer-right{
 	width: 20%;
 }
 
-.footer-distributed .footer-company-about{
+.site-footer .footer-company-about{
 	line-height: 20px;
 	font-size: 13px;
 	font-weight: normal;
 	margin: 0;
 }
 
-.footer-distributed .footer-company-about span{
+.site-footer .footer-company-about span{
 	display: block;
 	font-size: 14px;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
 
-.footer-distributed .footer-icons{
+.site-footer .footer-icons{
 	margin-top: 25px;
 }
 
-.footer-distributed .footer-icons a{
+.site-footer .footer-icons a{
 	display: inline-block;
 	width: 35px;
 	height: 35px;
@@ -262,20 +267,20 @@
 
 @media (max-width: 880px) {
 
-	.footer-distributed{
+	.site-footer{
 		font: bold 14px sans-serif;
 	}
 
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-center,
-	.footer-distributed .footer-right{
+	.site-footer .footer-left,
+	.site-footer .footer-center,
+	.site-footer .footer-right{
 		display: block;
 		width: 100%;
 		margin-bottom: 40px;
 		text-align: center;
 	}
 
-	.footer-distributed .footer-center i{
+	.site-footer .footer-center i{
 		margin-left: 0;
 	}
 
