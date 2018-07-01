@@ -3,7 +3,7 @@ layout: product-scripts
 title:  "PHP Contact Form Script"
 date:   2017-10-8
 categories: [PHP Script]
-img: php-contact-from-script.png
+images: [php-contact-from-script.png, php-contact-from-script-ajax.png]
 
 short: "An easy-to-use, advance, powerful and simple PHP contact form script with no js dependency"
 description: "Do you need a feature enriched, secure & fast PHP Contact Form script? look no further! Our responsive and advance PHP script is all you need to get started within a few minutes"

@@ -13,8 +13,8 @@ tag-line: "We keep the Web warm"
                   <div class="panel-body">
 					<h3 class="panel-title pull-left">{{ post.title | truncate: 40 }}</h3><span class="post-meta pull-right"><small>{{ post.categories }}</small></span>
                   </div>
-                  {% if post.img %}
-                  <img class="main_post_image" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
+                  {% if post.images %}
+                  <img class="main_post_image" src="{{site.baseurl}}/images/{{post.images[0]}}" alt="{{post.title}}">
                   {% else %}
                   <img class="main_post_image" src="{{site.baseurl}}/images/{{site.default-image}}" alt="{{post.title}}">
                   {% endif %}

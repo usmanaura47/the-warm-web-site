@@ -6,7 +6,6 @@ $(document).ready(function() {
 		play: {
 			auto: true,
 			interval: 4000,
-			effect: "fade",
 			restartDelay: 2500,
 			pauseOnHover: false
 		}

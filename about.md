@@ -9,7 +9,7 @@ tag-line: "Get-to-know who we are!"
 <div class="row">
 	<div class="col-md-4">&nbsp;</div>
 	<div class="col-md-4">
-		<img src="/images/footer.png" alt="The warm web">
+		<img src="{{ site.baseurl }}/images/footer.png" alt="The warm web">
 	</div>
 	<div class="col-md-4">&nbsp;</div>
 </div>
