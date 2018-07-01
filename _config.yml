@@ -10,7 +10,7 @@ title: "The Warm Web"
 email: usmanaura47@gmail.com
 description: "The Warm Web keeps the Web warm by developing awesome scripts, themes, plugins and templates for it."
   
-baseurl: "/web-scripts-site" # the subpath of your site, e.g. /blog. Note no / at the end
+baseurl: "" # the subpath of your site, e.g. /blog. Note no / at the end
 url: "https://usmanaura47.github.io" # the base hostname & protocol for your site
 
 #sidebar
