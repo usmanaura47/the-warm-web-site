@@ -1,7 +1,7 @@
 # Official Website of The Warm Web
 
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/usmanaura47/gsecuritylocker-web/)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/usmanaura47/web-scripts-site/)
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=flat-square)](https://twitter.com/malikusmanaura)
 ![Malik Usman Aura](https://img.shields.io/badge/Coded%20by-Malik%20Usman%20Aura-blue.svg)
 
