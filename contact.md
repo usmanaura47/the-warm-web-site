@@ -23,6 +23,7 @@ tag-line: "Feel free to contact us in case of any problems or queries"
 				{% for post in site.posts %}
 					<option value="{{ post.title }}">{{ post.title }}</option>
 				{% endfor %}
+				<option value="Other">Other</option>
 			</select>
 		</div>
 		<div class="form-group">

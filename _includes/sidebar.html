@@ -1,14 +1,6 @@
 <div class="col-md-4 mt20">
-        <div class="post-img">
-           {% if page.img %}
-            <img class="img-thumbnail img-responsive" src="{{site.baseurl}}/images/{{page.img}}" alt="{{page.title}}">
-            {% else %}
-            <img class="img-thumbnail img-responsive" src="{{site.baseurl}}/images/{{site.default-image}}" alt="{{page.title}}">
-            {% endif %}
-        </div>
         
-		
-		<div class="mt10">
+		<div>
 			<h2><i class="glyphicon glyphicon-info-sign"></i>&nbsp;Information</h2>
 			<hr>
 			<table class="table table-striped">
@@ -17,13 +9,13 @@
 					<tr><th scope="row">Version: </th><td>{{page.ver}}</td></tr>
 					<tr><th scope="row">Languages Used: </th><td>{{page.langs}}</td></tr>
 					<tr><th scope="row">Supports Ajax: </th><td>{{page.ajax}}</td></tr>
-					<tr><th scope="row">Help: </th><td><a class="text-info" href="{{site.baseurl}}{{page.support}}">Support</a> & <a class="text-info" href="{{site.baseurl}}{{page.docs}}">Documentation</a> </td></tr>
+					<tr><th scope="row">Help: </th><td><a class="text-info no-underline" href="{{site.baseurl}}{{page.support}}">Support</a> & <a class="text-info no-underline" href="{{site.baseurl}}{{page.docs}}">Documentation</a> </td></tr>
 				</tbody>
 			</table>
 		</div>
 		<br>
 		
-		<div class="mt10">
+		<div>
 			<h2><i class="glyphicon glyphicon-list-alt"></i>&nbsp;Requirements</h2>
 			<hr>
 			<table class="table table-striped">
@@ -36,14 +28,14 @@
 		</div>
 		<br>
 		
-		<div class="mt10 recent">
+		<div>
             <h2><i class="glyphicon glyphicon-flag"></i>&nbsp;Other Products</h2>        
              
             {% for post in site.related_posts limit:3 %}
 			<hr>
 			<table class="table table-striped">
 				<tbody>
-					<tr><td><i class="fa fa-hashtag fa-fw fa-lg" aria-hidden="true"></i>&nbsp;<a class="text-info" id="no-underline" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></td></tr>
+					<tr><td><i class="fa fa-hashtag fa-fw fa-lg" aria-hidden="true"></i>&nbsp;<a class="text-info no-underline" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></td></tr>
 				</tbody>
 			</table>
             {% endfor %}
