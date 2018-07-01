@@ -5,7 +5,7 @@ $(document).ready(function() {
 		navigation: false,
 		play: {
 			auto: true,
-			interval: 4000,
+			interval: 5000,
 			restartDelay: 2500,
 			pauseOnHover: false
 		}
