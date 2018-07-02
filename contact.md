@@ -31,6 +31,7 @@ tag-line: "Feel free to contact us in case of any problems or queries"
 			<textarea style="max-width: 100%;" class="form-control" name="Message" rows="5" required></textarea>
 		</div>
 		<div class="form-group">
+			<input type="hidden" name="redirect_to" value="{{ site.url }}{{ site.baseurl}}/thankyou/" />
 			<input class="btn btn-default" type="submit" value="Send Now" />
 			<input class="btn btn-default" type="reset" value="Clear" />
 		</div>
