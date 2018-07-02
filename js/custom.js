@@ -1,13 +1,12 @@
 $(document).ready(function() {
-	$("#slides").slidesjs({
+	$(".bxslider").bxSlider({
         width: 940,
         height: 528,
 		navigation: false,
-		play: {
-			auto: true,
-			interval: 5000,
-			restartDelay: 2500,
-			pauseOnHover: false
-		}
+		auto: true,
+		autoControls: true,
+		autoControlsCombine: true,
+		autoHover: true,
+		keyboardEnabled: true
       });
 });
