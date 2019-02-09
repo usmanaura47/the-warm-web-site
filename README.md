@@ -1,4 +1,4 @@
-# Official Website of The Warm Web
+# Official Website of { The Warm Web } 
 
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/usmanaura47/web-scripts-site/)
@@ -18,7 +18,7 @@ You need Ruby and gem before starting, then:
 gem install bundler
 
 # clone the project
-git clone https://github.com/usmanaura47/web-scripts-site.git
+git clone https://github.com/usmanaura47/the-warm-web-site.git
 cd web-scripts-site
 
 # run jekyll with dependencies
