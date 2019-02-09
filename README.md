@@ -19,7 +19,7 @@ gem install bundler
 
 # clone the project
 git clone https://github.com/usmanaura47/the-warm-web-site.git
-cd web-scripts-site
+cd the-warm-web-site
 
 # run jekyll with dependencies
 bundle exec jekyll serve
