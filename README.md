@@ -5,7 +5,7 @@
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=flat-square)](https://twitter.com/malikusmanaura)
 ![Malik Usman Aura](https://img.shields.io/badge/Coded%20by-Malik%20Usman%20Aura-blue.svg)
 
-> *Copyright 2018 [Malik Usman Aura](mailto:usmanaura47@gmail[dot]com)*
+> *Copyright 2020 [Malik Usman Aura](mailto:usmanaura47@gmail[dot]com)*
 
 To view live website click [here](#)
 
